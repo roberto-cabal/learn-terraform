@@ -132,3 +132,4 @@ dmypy.json
 *.tfstate
 *.tfstate.backup
 *.hcl
+*.info
