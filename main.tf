@@ -44,8 +44,8 @@ data "aws_ami" "ubuntu" {
 
 variable "server_port" {
   description = "The port the server will use for http requests"
-  type = number
-  default = 8080
+  type        = number
+  default     = 8080
 }
 
 resource "aws_instance" "web" {
