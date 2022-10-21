@@ -24,7 +24,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
-resource "random_pet" "sg" {}
+# resource "random_pet" "sg" {}
 
 data "aws_ami" "ubuntu" {
   most_recent = true
